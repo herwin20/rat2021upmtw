@@ -41,7 +41,7 @@
       <div class="container d-flex flex-column align-items-center">
         <h1>Coming Soon RAT Koperasi Online</h1>
         <h2>Daftarkan diri anda dan menangkan banyak doorprize serta souvenir yg menarik !</h2>
-        <div class="countdown d-flex justify-content-center" data-count="2021/4/3">
+        <div class="countdown d-flex justify-content-center" data-count="2021/4/7">
           <div>
             <h3>%d</h3>
             <h4>Days</h4>
@@ -195,7 +195,7 @@
                       <textarea class="form-control" name="alamat" rows="5"></textarea>
                     </div>
                     <div class="text-center" style="padding: 2rem">
-                      <button class="btn-kirim" type="submit">Send Data</button>
+                      <button class="btn-kirim" id="btn-absen" type="submit">Send Data</button>
                       <button class="btn btn-primary btn-loading d-none" type="btn-new" disabled>
                         <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
                         Loading...
@@ -270,7 +270,7 @@
                     <input type="hidden" name="pageHistory" value="0" />
 
                     <div style="padding: 2rem" class="text-center">
-                      <input class="btn btn-primary btn-kirimLPJ" type="submit" value="Kirim Tanggapan" />
+                      <input class="btn btn-primary btn-kirimLPJ" id="btn-kirimLPJ" type="submit" value="Kirim Tanggapan" />
                       <button class="btn btn-primary d-none btn-loading-lpj" type="btn-new-lpj" disabled>
                         <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
                         Loading...
@@ -404,7 +404,7 @@
       const alertKirim = document.querySelector(".alert-kirim");
       const alertGagal = document.querySelector(".alert-gagal");
 
-      let timerInterval
+      let timerInterval;
 
       form.addEventListener("submit", (e) => {
         e.preventDefault();
@@ -423,41 +423,41 @@
             form.reset();
             //alert
             Swal.fire({
-              position: 'center',
-              icon: 'success',
-              title: 'Data kehadiran telah tersimpan',
+              position: "center",
+              icon: "success",
+              title: "Data kehadiran telah tersimpan",
               showConfirmButton: false,
-              timer: 2000
-            })
+              timer: 2000,
+            });
 
-            setTimeout(function() {
+            setTimeout(function () {
               Swal.fire({
-              title: 'Anda akan di arahkan ke halaman Login',
-              html: 'It will close in <b></b> milliseconds.',
-              timer: 3000,
-              timerProgressBar: true,
-              didOpen: () => {
-                Swal.showLoading()
-                timerInterval = setInterval(() => {
-                  const content = Swal.getContent()
-                  if (content) {
-                    const b = content.querySelector('b')
-                    if (b) {
-                      b.textContent = Swal.getTimerLeft()
+                title: "Anda akan di arahkan ke halaman Login",
+                html: "It will close in <b></b> milliseconds.",
+                timer: 3000,
+                timerProgressBar: true,
+                didOpen: () => {
+                  Swal.showLoading();
+                  timerInterval = setInterval(() => {
+                    const content = Swal.getContent();
+                    if (content) {
+                      const b = content.querySelector("b");
+                      if (b) {
+                        b.textContent = Swal.getTimerLeft();
+                      }
                     }
-                  }
-                }, 100)
-              },
-              willClose: () => {
-                clearInterval(timerInterval)
-                setTimeout("location.href='index.html'", 10);
-              }
-            }).then((result) => {
-              /* Read more about handling dismissals below 
+                  }, 100);
+                },
+                willClose: () => {
+                  clearInterval(timerInterval);
+                  setTimeout("location.href='index.html'", 10);
+                },
+              }).then((result) => {
+                /* Read more about handling dismissals below 
               if (result.dismiss === Swal.DismissReason.timer) {
                 console.log('I was closed by the timer') 
               } */
-            })
+              });
             }, 2000);
           })
           .catch((error) => {
@@ -495,41 +495,41 @@
             formLpj.reset();
             //alert("Terima Kasih atas responnya, Page ini akan close");
             Swal.fire({
-              position: 'center',
-              icon: 'success',
-              title: 'Terima Kasih, Response anda telah tersimpan',
+              position: "center",
+              icon: "success",
+              title: "Terima Kasih, Response anda telah tersimpan",
               showConfirmButton: false,
-              timer: 2000
-            })
+              timer: 2000,
+            });
 
-            setTimeout(function() {
+            setTimeout(function () {
               Swal.fire({
-              title: 'Anda akan di arahkan ke halaman Login',
-              html: 'It will close in <b></b> milliseconds.',
-              timer: 3000,
-              timerProgressBar: true,
-              didOpen: () => {
-                Swal.showLoading()
-                timerInterval = setInterval(() => {
-                  const content = Swal.getContent()
-                  if (content) {
-                    const b = content.querySelector('b')
-                    if (b) {
-                      b.textContent = Swal.getTimerLeft()
+                title: "Anda akan di arahkan ke halaman Login",
+                html: "It will close in <b></b> milliseconds.",
+                timer: 3000,
+                timerProgressBar: true,
+                didOpen: () => {
+                  Swal.showLoading();
+                  timerInterval = setInterval(() => {
+                    const content = Swal.getContent();
+                    if (content) {
+                      const b = content.querySelector("b");
+                      if (b) {
+                        b.textContent = Swal.getTimerLeft();
+                      }
                     }
-                  }
-                }, 100)
-              },
-              willClose: () => {
-                clearInterval(timerInterval)
-                setTimeout("location.href='index.html'", 10);
-              }
-            }).then((result) => {
-              /* Read more about handling dismissals below 
+                  }, 100);
+                },
+                willClose: () => {
+                  clearInterval(timerInterval);
+                  setTimeout("location.href='index.html'", 10);
+                },
+              }).then((result) => {
+                /* Read more about handling dismissals below 
               if (result.dismiss === Swal.DismissReason.timer) {
                 console.log('I was closed by the timer') 
               } */
-            })
+              });
             }, 2000);
             // You can also redirect the user to a custom thank-you page:
             // window.location = 'http://www.mydomain.com/thankyoupage.html'
@@ -550,6 +550,17 @@
         const namaLpj = document.querySelector(".nama-lpj");
         namaDaftar.classList.add("d-none");
         namaLpj.classList.remove("d-none");
+      }
+    </script>
+
+    <script>
+      const time = new Date();
+      const date = time.getDate();
+      const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+      if (months[time.getMonth()] == "March") {
+        document.getElementById("btn-kirimLPJ").disabled = true;
+        document.getElementById("btn-absen").disabled = true;
       }
     </script>
   </body>
