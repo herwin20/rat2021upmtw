@@ -39,7 +39,7 @@
     <!-- ======= Header ======= -->
     <header id="header" class="d-flex align-items-center">
       <div class="container d-flex flex-column align-items-center">
-        <h1>Coming Soon RAT Koperasi Online</h1>
+        <h1 id="test">Coming Soon RAT Koperasi Online</h1>
         <h2>Daftarkan diri anda dan menangkan banyak doorprize serta souvenir yg menarik !</h2>
         <div class="countdown d-flex justify-content-center" data-count="2021/4/7">
           <div>
@@ -392,6 +392,9 @@
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
 
+    <!-- DOT JS-->
+    <script src="assetlogin/dot.js"></script>
+
     <!-- Sweet Alert-->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script>
 
@@ -558,10 +561,30 @@
       const date = time.getDate();
       const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
-      if (months[time.getMonth()] == "March") {
+      /* if (months[time.getMonth()] == "March") {
         document.getElementById("btn-kirimLPJ").disabled = true;
         document.getElementById("btn-absen").disabled = true;
-      }
+      } */
     </script>
+
+    <script>
+      document.getElementById("test").innerHTML = $scope.username;
+    </script>
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+      var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+      (function () {
+        var s1 = document.createElement("script"),
+          s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = "https://embed.tawk.to/605f3cf4f7ce182709348c09/1f1q0c73e";
+        s1.charset = "UTF-8";
+        s1.setAttribute("crossorigin", "*");
+        s0.parentNode.insertBefore(s1, s0);
+      })();
+    </script>
+    <!--End of Tawk.to Script-->
   </body>
 </html>
