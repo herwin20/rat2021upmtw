@@ -1,6 +1,6 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/benscogr/rat2021upmtw.com/
+    - export DEPLOYPATH=/home/benscogr/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp dashboard.html $DEPLOYPATH
     - /bin/cp maps.html $DEPLOYPATH
