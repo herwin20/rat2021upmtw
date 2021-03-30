@@ -573,7 +573,7 @@
         document.getElementById("btn-absen").disabled = false;
       }
 
-      if (hours > 12) {
+      if (hours < 12) {
         document.getElementById("btn-kirimLPJ").disabled = true;
       } else {
         document.getElementById("btn-kirimLPJ").disabled = false;
