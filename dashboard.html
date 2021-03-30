@@ -559,16 +559,25 @@
     <script>
       const time = new Date();
       const date = time.getDate();
+      const hours = time.getUTCHours();
       const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
       /* if (months[time.getMonth()] == "March") {
         document.getElementById("btn-kirimLPJ").disabled = true;
         document.getElementById("btn-absen").disabled = true;
       } */
-    </script>
 
-    <script>
-      document.getElementById("test").innerHTML = $scope.username;
+      if (hours > 9) {
+        document.getElementById("btn-absen").disabled = true;
+      } else {
+        document.getElementById("btn-absen").disabled = false;
+      }
+
+      if (hours > 12) {
+        document.getElementById("btn-kirimLPJ").disabled = true;
+      } else {
+        document.getElementById("btn-kirimLPJ").disabled = false;
+      }
     </script>
 
     <!--Start of Tawk.to Script-->
