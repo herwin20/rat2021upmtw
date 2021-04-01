@@ -3,8 +3,8 @@ angular.module("AdminLogin", []).controller("LoginAdmin", function ($scope) {
     if (
       ($scope.username === "admin" && $scope.password === "admin") ||
       //--------------------------------------------MTW------------------------------------------------------------
-      ($scope.username === "8914103ZJY " && $scope.password === "8914103") || //	ACHMAD KHOIRUL ANAM
-      ($scope.username === "9115226ZJY " && $scope.password === "9115226") || //	ACHMAD ULUL AZMY
+      ($scope.username === "8914103ZJY" && $scope.password === "8914103") || //	ACHMAD KHOIRUL ANAM
+      ($scope.username === "9115226ZJY" && $scope.password === "9115226") || //	ACHMAD ULUL AZMY
       ($scope.username === "8305045JA" && $scope.password === "8305045") || //	ADE NUGROHO
       ($scope.username === "8710036JA" && $scope.password === "8710036") || //	ADEF FARIYANTO
       ($scope.username === "9018045ZJY" && $scope.password === "9018045") || //	ADHID PRADITYA

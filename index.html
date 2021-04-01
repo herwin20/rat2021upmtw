@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="assetlogin/dot.css" />
     <script type="text/javascript" src="assetlogin/angular.js"></script>
     <script type="text/javascript" src="assetlogin/dot.js"></script>
+    <script type="text/javascript" src="assetlogin/validasi.js"></script>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css" />
 
@@ -136,9 +137,10 @@
           <p class="message">Already registered? <a href="#">Sign In</a></p>
         </form>
         <form name="rat2021" class="login-form">
-          <input ng-model="username" name="nid" type="text" placeholder="username" />
+          <input ng-model="username" id="nid" name="nid" type="text" placeholder="username" />
           <input ng-model="password" type="password" placeholder="password" />
-          <button id="btn-login" class="btn" ng-click="login()">login</button>
+          <input id="namapeserta" type="hidden" placeholder="password" />
+          <button id="btn-login" class="btn" onclick="save()" ng-click="login()">login</button>
           <p class="message">Username = NID, Password = NID tanpa huruf</p>
           <p><a href="#">Login Bermasalah ?</a></p>
         </form>
@@ -163,9 +165,9 @@
       /* if (months[time.getMonth()] == "March") {
         document.getElementById("btn-login").disabled = true;
       } */
-      if (date < 6) {
+      /*if (date < 6) {
         document.getElementById("btn-login").disabled = true;
-      }
+      }*/
     </script>
   </body>
 </html>
