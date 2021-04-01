@@ -39,7 +39,9 @@
     <!-- ======= Header ======= -->
     <header id="header" class="d-flex align-items-center">
       <div class="container d-flex flex-column align-items-center">
-        <h1 id="test">Coming Soon RAT Koperasi Online</h1>
+        <h1>Hi,</h1>
+        <h1 id="hi">Username</h1>
+        <h1>Selamat Datang di RAT Koperasi Online</h1>
         <h2>Daftarkan diri anda dan menangkan banyak doorprize serta souvenir yg menarik !</h2>
         <div class="countdown d-flex justify-content-center" data-count="2021/4/7 09:30:00">
           <div>
@@ -412,6 +414,8 @@
       var NID = document.getElementById("nid");
       var namaNID = (NID.value = localStorage.getItem("nid"));
       var namaPeserta = (document.getElementById("nama").value = localStorage.getItem("nama"));
+
+      document.getElementById("hi").innerHTML = localStorage.getItem("nama");
 
       /* if (namaNID === "9115238ZJY") {
         namaPeserta.value = "Herwin Januardi";
