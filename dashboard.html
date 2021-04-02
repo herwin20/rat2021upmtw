@@ -500,65 +500,76 @@
       const formLpj = document.querySelector(".form-lpj");
       var delayInMillisecond = 3000;
 
-      $("#bootstrapForm").submit(function (event) {
-        event.preventDefault();
-        // button loading
-        btnKirimLpj.classList.toggle("d-none");
-        btnLoadingLpj.classList.toggle("d-none");
-        var extraData = {};
-        $("#bootstrapForm").ajaxSubmit({
-          data: extraData,
-          dataType: "jsonp", // This won't really work. It's just to use a GET instead of a POST to allow cookies from different domain.
-          error: function () {
-            // Submit of form should be successful but JSONP callback will fail because Google Forms
-            // does not support it, so this is handled as a failure.
-            btnKirimLpj.classList.toggle("d-none");
-            btnLoadingLpj.classList.toggle("d-none");
-            //alertKirimLpj.classList.toggle("d-none");
-            btnKirimLpj.disabled = true;
-            formLpj.reset();
-            //alert("Terima Kasih atas responnya, Page ini akan close");
-            Swal.fire({
-              position: "center",
-              icon: "success",
-              title: "Terima Kasih, Response anda telah tersimpan",
-              showConfirmButton: false,
-              timer: 2000,
-            });
+      document.getElementById("273552791").value = localStorage.getItem("nama");
 
-            setTimeout(function () {
+      $("#bootstrapForm").submit(function (event) {
+        if (document.getElementById("273552791").value === localStorage.getItem("nama")) {
+          event.preventDefault();
+          // button loading
+          btnKirimLpj.classList.toggle("d-none");
+          btnLoadingLpj.classList.toggle("d-none");
+          var extraData = {};
+          $("#bootstrapForm").ajaxSubmit({
+            data: extraData,
+            dataType: "jsonp", // This won't really work. It's just to use a GET instead of a POST to allow cookies from different domain.
+            error: function () {
+              // Submit of form should be successful but JSONP callback will fail because Google Forms
+              // does not support it, so this is handled as a failure.
+              btnKirimLpj.classList.toggle("d-none");
+              btnLoadingLpj.classList.toggle("d-none");
+              //alertKirimLpj.classList.toggle("d-none");
+              btnKirimLpj.disabled = true;
+              formLpj.reset();
+              //alert("Terima Kasih atas responnya, Page ini akan close");
               Swal.fire({
-                title: "Anda akan di arahkan ke halaman Login",
-                html: "It will close in <b></b> milliseconds.",
-                timer: 3000,
-                timerProgressBar: true,
-                didOpen: () => {
-                  Swal.showLoading();
-                  timerInterval = setInterval(() => {
-                    const content = Swal.getContent();
-                    if (content) {
-                      const b = content.querySelector("b");
-                      if (b) {
-                        b.textContent = Swal.getTimerLeft();
+                position: "center",
+                icon: "success",
+                title: "Terima Kasih, Response anda telah tersimpan",
+                showConfirmButton: false,
+                timer: 2000,
+              });
+
+              setTimeout(function () {
+                Swal.fire({
+                  title: "Anda akan di arahkan ke halaman Login",
+                  html: "It will close in <b></b> milliseconds.",
+                  timer: 3000,
+                  timerProgressBar: true,
+                  didOpen: () => {
+                    Swal.showLoading();
+                    timerInterval = setInterval(() => {
+                      const content = Swal.getContent();
+                      if (content) {
+                        const b = content.querySelector("b");
+                        if (b) {
+                          b.textContent = Swal.getTimerLeft();
+                        }
                       }
-                    }
-                  }, 100);
-                },
-                willClose: () => {
-                  clearInterval(timerInterval);
-                  setTimeout("location.href='index.html'", 10);
-                },
-              }).then((result) => {
-                /* Read more about handling dismissals below 
+                    }, 100);
+                  },
+                  willClose: () => {
+                    clearInterval(timerInterval);
+                    setTimeout("location.href='index.html'", 10);
+                  },
+                }).then((result) => {
+                  /* Read more about handling dismissals below 
               if (result.dismiss === Swal.DismissReason.timer) {
                 console.log('I was closed by the timer') 
               } */
-              });
-            }, 2000);
-            // You can also redirect the user to a custom thank-you page:
-            // window.location = 'http://www.mydomain.com/thankyoupage.html'
-          },
-        });
+                });
+              }, 2000);
+              // You can also redirect the user to a custom thank-you page:
+              // window.location = 'http://www.mydomain.com/thankyoupage.html'
+            },
+          });
+        } else {
+          Swal.fire({
+            icon: "error",
+            title: "Oops ...",
+            text: "Nama anda tidak sesuai Login !",
+            footer: "<a href>Harap menghubungi panitia, Terima Kasih</a>",
+          });
+        }
       });
     </script>
     <script>
