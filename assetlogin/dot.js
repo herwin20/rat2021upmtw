@@ -478,7 +478,7 @@ angular.module("AdminLogin", []).controller("LoginAdmin", function ($scope) {
         icon: "error",
         title: "Oops ...",
         text: "Maaf anda tidak terdaftar !",
-        footer: "<a href>Harap menghubungi panitia, Terima Kasih</a>",
+        footer: "<a href=https://api.whatsapp.com/send?phone=+6289607719949&text=Help>Harap menghubungi panitia, Terima Kasih</a>",
       });
     }
     $scope.name = $scope.username;
