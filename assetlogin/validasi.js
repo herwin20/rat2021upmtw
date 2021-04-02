@@ -866,5 +866,539 @@ function save() {
   } else if (inputUsername.value === "9013042ZJY") {
     inputNama.value = "ZULI AGUS PRASETYO";
     localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5679128K3") {
+    inputNama.value = "A. RACHMANSYAH	";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5576149K3") {
+    inputNama.value = "ACHMAD SYIFA";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6484312K3") {
+    inputNama.value = "ADRI WIYONO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5679084K3") {
+    inputNama.value = "AGUS BIYANTORO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5677154K3") {
+    inputNama.value = "AGUS SUTOPO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5780172K3") {
+    inputNama.value = "AMRAN 	";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6892105Z") {
+    inputNama.value = "B. SUDARMANTA";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6181051K3") {
+    inputNama.value = "BAMBANG ARBANGUN";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5781010K3") {
+    inputNama.value = "BAMBANG SUYOTO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5679027K3") {
+    inputNama.value = "BAMBANG TJAHYONO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6385008K3") {
+    inputNama.value = "BAMBANG TRENGGONO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5680101K3") {
+    inputNama.value = "BUDIMAN";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5474044K3") {
+    inputNama.value = "DIGYONO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6385125K3") {
+    inputNama.value = "DULALI";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6184476K3") {
+    inputNama.value = "EDI SUDONO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5987002JA") {
+    inputNama.value = "EKO PRIYATNO KB";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6284311K3") {
+    inputNama.value = "ENDANG MIQDARSAH";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5275292K3") {
+    inputNama.value = "FAROUK NA";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5479005K3") {
+    inputNama.value = "HARI MULYO ISWAHYUDI";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5174007K3") {
+    inputNama.value = "HARYADI";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6285080K3") {
+    inputNama.value = "HEDEN SIAHAAN";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5780015K3") {
+    inputNama.value = "HERIKEN SUHENI";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5878161K3") {
+    inputNama.value = "JON EFFENDI";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6183398K3") {
+    inputNama.value = "KADIR";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5480013K3") {
+    inputNama.value = "KASMAR";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6181099K3") {
+    inputNama.value = "KECO KARSAI";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5174180J") {
+    inputNama.value = "KRIS SUBONO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6384183K3") {
+    inputNama.value = "LINGGO UTOMO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6282692K3") {
+    inputNama.value = "M SITANGGANG";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5477149K3") {
+    inputNama.value = "MACHMUD UDJANG";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6188064K3") {
+    inputNama.value = "MARHUSEN";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6284079K3") {
+    inputNama.value = "MARIYANA";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "4879018K3") {
+    inputNama.value = "MIRSAL";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6384319K3") {
+    inputNama.value = "MISTOPO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6485153JA") {
+    inputNama.value = "MUDJIONO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5779097K3") {
+    inputNama.value = "MUSBAR TAMZA";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8209032JA") {
+    inputNama.value = "NGUDI SIGIT SRIDADIYONO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6793155Z") {
+    inputNama.value = "OCHAIRIALDI";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5579008K3") {
+    inputNama.value = "OMO KARMA WIJAYA";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5173033K3") {
+    inputNama.value = "ONO MARYADI";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5886004JA") {
+    inputNama.value = "PAMINTO ADI BASUKI";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6083099JA") {
+    inputNama.value = "PRANOTO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5277316K3") {
+    inputNama.value = "R. INDRA SANTOSA";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5980126K3") {
+    inputNama.value = "ROCHYAT";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5680044K3") {
+    inputNama.value = "RODJAK";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6494338K3") {
+    inputNama.value = "RULY FIRMANSYAH";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6482112K3") {
+    inputNama.value = "SAMINI";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6282109K3") {
+    inputNama.value = "SARIMUDIN SIREGAR";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5986076K3") {
+    inputNama.value = "SAROBAN";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5780043K3") {
+    inputNama.value = "SARTONO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5476004S") {
+    inputNama.value = "SAYUDI UTOMO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5376124K3") {
+    inputNama.value = "SUBONO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5881112K3") {
+    inputNama.value = "SUDARTO R";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6186075K3") {
+    inputNama.value = "SUDARYO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "4871015K3") {
+    inputNama.value = "SULASTO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5881108K3") {
+    inputNama.value = "SUNARTO B.";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5982700K3") {
+    inputNama.value = "SUNGEB";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5580025K3") {
+    inputNama.value = "SUPARMAN";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5677125K3") {
+    inputNama.value = "SURATMAN";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6282070JA") {
+    inputNama.value = "SUYANTO KADI";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5479160K3") {
+    inputNama.value = "SUYONO PUTRO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5979028K3") {
+    inputNama.value = "TEDJO LELONO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5780011K3") {
+    inputNama.value = "TRI YUNIANTO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6081030K3") {
+    inputNama.value = "TUBAGUS DADANG";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6484067K3") {
+    inputNama.value = "UNTUNG DARMANTO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6185009K3") {
+    inputNama.value = "UNTUNG PRIBADI";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5579172K3") {
+    inputNama.value = "UTAR SURYANA";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5882346K3") {
+    inputNama.value = "WASKITO BUDI";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6185021K3") {
+    inputNama.value = "YAYAN RUHYAN";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6293002Z") {
+    inputNama.value = "YUSI APRIAGUNG";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6483396K3") {
+    inputNama.value = "YUSMAN BUHORI";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6080042P") {
+    inputNama.value = "ZAENAL ARIFIN";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "5576122K3") {
+    inputNama.value = "ZARFAISAL";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "9011118JA") {
+    inputNama.value = "AAN PRASETYO AJI	";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "7907012JA") {
+    inputNama.value = "ACEP MOI KOKONG";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6992098K3") {
+    inputNama.value = "ACHMAD DJALALUDIN";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8505120JA") {
+    inputNama.value = "ACHMAD SUWIGNYO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "9115128ZJY") {
+    inputNama.value = "ADHI EKO APRIYANTO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6493034Z") {
+    inputNama.value = "ADI SETIAWAN";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "7806013JA") {
+    inputNama.value = "AGUNG PURNOMO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6592049Z") {
+    inputNama.value = "AGUS BAGYO HARTADI";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6793462K3") {
+    inputNama.value = "AGUS HARYADI";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8305114JA") {
+    inputNama.value = "AGUS SALIM";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8911112JA") {
+    inputNama.value = "AHMAD ADIB";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "9111180JA") {
+    inputNama.value = "ALFI WIDHA PRIBADI";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "9015031ZJ") {
+    inputNama.value = "ALFIAN SULTHONI";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "7599016JA") {
+    inputNama.value = "AMRAN SATTU";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8006093JA") {
+    inputNama.value = "ANDY WAHYU ARIANTO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8107064JA") {
+    inputNama.value = "ARI WIRAHADI";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "7806017JA") {
+    inputNama.value = "ARIEF WICAKSONO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8913045ZJY") {
+    inputNama.value = "ARISTO TITIS ADILO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8814138ZJY") {
+    inputNama.value = "ARIYANI ABDULLAH";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8911182JA") {
+    inputNama.value = "ASEP SYARIP HIDAYAT";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8410101JA") {
+    inputNama.value = "AWALUDIN AZIZ";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "7906075JA") {
+    inputNama.value = "BAMBANG SETIAWAN";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6594341K3") {
+    inputNama.value = "BAMBANG SULAKSONO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "7193266K3") {
+    inputNama.value = "BAMBANG SUPRIYATNO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6492031Z") {
+    inputNama.value = "BETON KARO SEKALI";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8911107JA") {
+    inputNama.value = "BUDI UTOMO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8008027JA") {
+    inputNama.value = "CATUR BUDI PRASETYONO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8710087JA") {
+    inputNama.value = "CHARISMA REANDRIANTO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8910029JA") {
+    inputNama.value = "DENI SUBANDI";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "7702012JA") {
+    inputNama.value = "DENI SUSANTO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "7503032JA") {
+    inputNama.value = "DODDY NAFIUDIN";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6685135K3") {
+    inputNama.value = "EKO YULIANTO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8610086JA") {
+    inputNama.value = "ELLY RAHMAD";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "7806112JA") {
+    inputNama.value = "EMIEL ZAKKA NOOR AULIYA";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "7806076JA") {
+    inputNama.value = "ENDRIK PURBO YUNASTYO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "9013035ZJY") {
+    inputNama.value = "ERLANGGA";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8207016JA") {
+    inputNama.value = "ERWIN FIRMANSYAH";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8309030JA") {
+    inputNama.value = "ETTY NUR AINI SA'ADAH";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8913036ZJY") {
+    inputNama.value = "FARID ARDHI INDRASTO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "7806113JA") {
+    inputNama.value = "FIRMAN NOVARIANTO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8405110JA") {
+    inputNama.value = "GAGUK WAHYUNI ASMARA";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8911181JA") {
+    inputNama.value = "GILANG YURI WIBOWO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8208098JA") {
+    inputNama.value = "HARDIAN ARIEF WINANTO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8006011JA") {
+    inputNama.value = "HARRY PURNOMO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6892179JA") {
+    inputNama.value = "HARTANTO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "7192106K3") {
+    inputNama.value = "HARTONO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8310084JA") {
+    inputNama.value = "HENDRAS DWI WAHYUDI";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "7603027JA") {
+    inputNama.value = "HENDRIE BASTIAN";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "7503018JA") {
+    inputNama.value = "HENRY PARIAMAN";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8911123JA") {
+    inputNama.value = "HERI DWI SULISTIYONO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "9111185JA") {
+    inputNama.value = "ILLYAS RENDY PURWANTO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "7806092JA") {
+    inputNama.value = "IMAM KHOLIL";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "7195045P") {
+    inputNama.value = "IRVAN RAHMAT";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "7393156JA") {
+    inputNama.value = "JADI SILABAN";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8710044JA") {
+    inputNama.value = "JONI ARIFIN";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8714125ZJY") {
+    inputNama.value = "JORNALIS BAMBANG PRASTYANTO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "9111178JA") {
+    inputNama.value = "JOVY SAMBORA";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "7093116JA") {
+    inputNama.value = "KASNADI";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8310080JA") {
+    inputNama.value = "KETUT WISNU MAHENDRA";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8006085JA") {
+    inputNama.value = "KUNTO WIBISONO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8405107JA") {
+    inputNama.value = "KUSWINARTO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8609068JA") {
+    inputNama.value = "LUTHFI ANANTA DZUNURAIN";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6792099K3") {
+    inputNama.value = "MACHRIF HERIANSJAH";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8910030JA") {
+    inputNama.value = "MAE NITTO BUDI KARSONO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8409025JA") {
+    inputNama.value = "MAHENDRA RISTANTO KURNIAWAN";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6692065Z") {
+    inputNama.value = "MIFTAHUL JANNAH";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8305111JA") {
+    inputNama.value = "MOCH. AGUS";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "7494130JA") {
+    inputNama.value = "MOCHAMAD YUNAN NASUTIYON";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8405108JA") {
+    inputNama.value = "MUHAMAD SAIFUL HUDA";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "9111183JA") {
+    inputNama.value = "MUHAMMAD FATHONI";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "9011187JA") {
+    inputNama.value = "MUHAMMAD IHSAN";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "7906074JA") {
+    inputNama.value = "MUHAMMAD MURTADHO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "9111188JA") {
+    inputNama.value = "MUHLAS";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "7193114JA") {
+    inputNama.value = "MUJIANTO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8006072JA") {
+    inputNama.value = "NOFRI PUSPITO WAHYUNINGTYAS";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8305022JA") {
+    inputNama.value = "NUR HADI PURNOMO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6585031JA") {
+    inputNama.value = "NUR HIDAYAT";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6584380K3") {
+    inputNama.value = "PADMONO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "9011121JA") {
+    inputNama.value = "PRANOTO YULISTYO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "7403021JA") {
+    inputNama.value = "PURWONO JATI AGUNG";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8306038JA") {
+    inputNama.value = "R. KHOLILUL RAHMAN";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8610106JA") {
+    inputNama.value = "RATNA PUSPITASARI";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8714127ZJY") {
+    inputNama.value = "RISKI ADITYA";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "7502023JA") {
+    inputNama.value = "RONA NOVIARTHA NAULI SIREGAR";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "9111189JA") {
+    inputNama.value = "ROSID ARI SETIAWAN";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8710028JA") {
+    inputNama.value = "RUBIYANTO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "7192109K3") {
+    inputNama.value = "RUCHIYADI TARMADI";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "7602006JA") {
+    inputNama.value = "SATRIO WAHYUDI";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8207063JA") {
+    inputNama.value = "SIGIT PRASETYO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6892138K3") {
+    inputNama.value = "SLAMET";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "7394033JA") {
+    inputNama.value = "SUBAGIO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "7292107K3") {
+    inputNama.value = "SUDIYONO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "7292104K3") {
+    inputNama.value = "SUMANTRI";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8405113JA") {
+    inputNama.value = "SW. PUDJI BUDIARTO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6793136Z") {
+    inputNama.value = "THOMMI HAPOSAN";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8505109JA") {
+    inputNama.value = "TINO SAPUTRA";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8610100JA") {
+    inputNama.value = "TRI PERWITA SARI";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "7092124K3") {
+    inputNama.value = "TRIO SURYONO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "7502020JA") {
+    inputNama.value = "TRIS PRAYOGO MUSLIM";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "6484327K3") {
+    inputNama.value = "TRIYONO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "7803039JA") {
+    inputNama.value = "UBAEDI SUSANTO";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8911124JA") {
+    inputNama.value = "ULIL ABSOR";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "9114116ZJY") {
+    inputNama.value = "VIOLA KHATULISTIWA";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "8308134JA") {
+    inputNama.value = "WAN VARIANI PERMATASARI";
+    localStorage.setItem("nama", inputNama.value);
+  } else if (inputUsername.value === "7906016JA") {
+    inputNama.value = "YAN SUPRAYOGI";
+    localStorage.setItem("nama", inputNama.value);
   }
 }
