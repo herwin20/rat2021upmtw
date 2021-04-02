@@ -866,6 +866,7 @@ function save() {
   } else if (inputUsername.value === "9013042ZJY") {
     inputNama.value = "ZULI AGUS PRASETYO";
     localStorage.setItem("nama", inputNama.value);
+    //------------------------------------------------------------------------------------------------
   } else if (inputUsername.value === "5679128K3") {
     inputNama.value = "A. RACHMANSYAH	";
     localStorage.setItem("nama", inputNama.value);
@@ -1085,6 +1086,7 @@ function save() {
   } else if (inputUsername.value === "5576122K3") {
     inputNama.value = "ZARFAISAL";
     localStorage.setItem("nama", inputNama.value);
+    //-----------------------------------------------------------------------------------------------------------------//
   } else if (inputUsername.value === "9011118JA") {
     inputNama.value = "AAN PRASETYO AJI	";
     localStorage.setItem("nama", inputNama.value);
