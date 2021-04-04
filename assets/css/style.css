@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: Product Sans;
   color: #fff;
   background: url("../img/night2.jpg") top center no-repeat;
   background-size: cover;
@@ -48,7 +48,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: Product Sans;
 }
 
 #main {
