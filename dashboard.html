@@ -53,6 +53,7 @@
         <h1 id="hi">Username</h1>
         <h1>Selamat Datang di RAT Koperasi Online</h1>
         <h2>Daftarkan diri anda dan menangkan banyak doorprize serta souvenir yg menarik !</h2>
+        <b id="waktu">Waktu Pendafataran di tutup</b>
         <div class="countdown d-flex justify-content-center" data-count="2021/4/7 09:30:00">
           <div>
             <h3>%d</h3>
@@ -621,12 +622,15 @@
         document.getElementById("btn-kirimLPJ").disabled = false;
       } */
 
-      let timeActivated = new Date("April 7, 2021 06:00:00").getTime();
-      let timeDeActivated = new Date("April 7, 2021 09:30:00").getTime();
+      let timeActivated = new Date("April 4, 2021 06:00:00").getTime();
+      let timeDeActivated = new Date("April 4, 2021 09:30:00").getTime();
       let currTime = Date.now();
 
-      let timeActivatedLPJ = new Date("April 7, 2021 12:00:00").getTime();
-      let timeDeActivatedLPJ = new Date("April 7, 2021 16:00:00").getTime();
+      let timeActivatedLPJ = new Date("April 4, 2021 12:00:00").getTime();
+      let timeDeActivatedLPJ = new Date("April 4, 2021 16:00:00").getTime();
+
+      const tabDaftar = document.querySelector(".pills-home-tab");
+      const tabLPJ = document.querySelector(".pills-profile-tab");
 
       document.getElementById("btn-absen").disabled = true;
       document.getElementById("btn-kirimLPJ").disabled = true;
@@ -649,6 +653,8 @@
       if (currTime > timeActivatedLPJ && currTime < timeDeActivatedLPJ) {
         // Write code activated Button
         document.getElementById("btn-kirimLPJ").disabled = false;
+        tabLPJ.classList.toggle("active");
+        tabDaftar.classList.toggle("active");
       } else if (currTime < timeDeActivatedLPJ) {
         setTimeout(() => {
           // Write code to activated button
