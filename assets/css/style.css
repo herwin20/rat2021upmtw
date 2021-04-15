@@ -116,7 +116,20 @@ h6 {
   margin-bottom: 80px;
 }
 
+#header .countdownLPJ {
+  margin-bottom: 80px;
+}
+
 #header .countdown div {
+  text-align: center;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  margin: 10px 10px;
+  width: 100px;
+  padding: 15px 0;
+}
+
+#header .countdowLPJ div {
   text-align: center;
   border: 2px solid rgba(255, 255, 255, 0.8);
   border-radius: 8px;
@@ -131,7 +144,18 @@ h6 {
   margin-bottom: 15px;
 }
 
+#header .countdownLPJ div h3 {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
 #header .countdown div h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#header .countdownLPJ div h4 {
   font-size: 16px;
   font-weight: 600;
 }
@@ -142,11 +166,28 @@ h6 {
     padding: 10px 0;
     margin: 10px 8px;
   }
+
+  #header .countdownLPJ div {
+    width: 70px;
+    padding: 10px 0;
+    margin: 10px 8px;
+  }
+
   #header .countdown div h3 {
     font-size: 28px;
     margin-bottom: 10px;
   }
+
+  #header .countdownLPJ div h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
   #header .countdown div h4 {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  #header .countdownLPJ div h4 {
     font-size: 14px;
     font-weight: 500;
   }
