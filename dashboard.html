@@ -226,26 +226,26 @@
               <div class="row">
                 <div class="col mt-5 mt-lg-0 d-flex align-items-stretch">
                   <form
-                    action="https://docs.google.com/forms/d/e/1FAIpQLSfw0eptOteqCs_mGyINc2udszmIjLqnew4uIbxvMhFKaCLeOA/formResponse"
+                    action="https://docs.google.com/forms/d/e/1FAIpQLSd31MyRlTVnWGVOTaadBu3I5GHzlPGDZ2TRw9wNNtPvXNueZw/formResponse"
                     target="_self"
                     id="bootstrapForm"
                     method="POST"
                     class="php-email-form form-lpj"
                   >
-                    <!-- Field type: "short" id: "1976873505" -->
+                    <!-- Field type: "short" id: "517432126" -->
                     <fieldset>
-                      <legend for="1976873505">Nama</legend>
+                      <legend for="517432126">Nama</legend>
                       <div class="form-group">
-                        <input id="273552791" type="text" name="entry.273552791" class="form-control" required />
+                        <input id="588911364" type="text" name="entry.588911364" class="form-control" />
                       </div>
                     </fieldset>
 
                     <div class="row">
-                      <!-- Field type: "choices" id: "808434474" -->
+                      <!-- Field type: "dropdown" id: "1946364409" -->
                       <fieldset class="col-md-6">
-                        <legend for="808434474">Status</legend>
+                        <legend for="1946364409">Status</legend>
                         <div class="form-group">
-                          <select id="808434474" name="entry.1786075314" class="form-control">
+                          <select id="1946364409" name="entry.1722797713" class="form-control">
                             <option value="Pegawai UPMTW">Pegawai UPMTW</option>
                             <option value="Pegawai Non UPMTW">Pegawai Non UPMTW</option>
                             <option value="Pensiunan">Pensiunan</option>
@@ -253,27 +253,27 @@
                         </div>
                       </fieldset>
 
-                      <!-- Field type: "dropdown" id: "16822880" -->
+                      <!-- Field type: "dropdown" id: "1290590447" -->
                       <fieldset class="col-md-6 mt-3 mt-md-0">
-                        <legend for="16822880">Menerima Laporan LPJ</legend>
+                        <legend for="1290590447">Menerima Laporan LPJ ?</legend>
                         <div class="form-group">
-                          <select id="16822880" name="entry.662207901" class="form-control">
+                          <select id="1290590447" name="entry.1554233349" class="form-control">
                             <option value="Ya">Ya</option>
                             <option value="Tidak">Tidak</option>
                           </select>
                         </div>
                       </fieldset>
                     </div>
-                    <!-- Field type: "paragraph" id: "1646540372" -->
+                    <!-- Field type: "paragraph" id: "430019471" -->
                     <fieldset>
-                      <legend for="1646540372">Tanggapan, Saran dan Kritik</legend>
+                      <legend for="430019471">Tanggapan, Saran, dan Kritik</legend>
                       <div class="form-group">
-                        <textarea id="470310116" name="entry.470310116" class="form-control" rows="5" required></textarea>
+                        <textarea id="1239225965" rows="5" name="entry.1239225965" class="form-control" required></textarea>
                       </div>
                     </fieldset>
 
                     <input type="hidden" name="fvv" value="1" />
-                    <input type="hidden" name="fbzx" value="142076224109889706" />
+                    <input type="hidden" name="fbzx" value="-5051845885500331089" />
                     <!--
       CAVEAT: In multipages (multisection) forms, *pageHistory* field tells to google what sections we've currently completed.
       This usually starts as "0" for the first page, then "0,1" in the second page... up to "0,1,2..N" in n-th page.
@@ -511,10 +511,10 @@
       const formLpj = document.querySelector(".form-lpj");
       var delayInMillisecond = 3000;
 
-      document.getElementById("273552791").value = localStorage.getItem("nama");
+      document.getElementById("588911364").value = localStorage.getItem("nama");
 
       $("#bootstrapForm").submit(function (event) {
-        if (document.getElementById("273552791").value === localStorage.getItem("nama")) {
+        if (document.getElementById("588911364").value === localStorage.getItem("nama")) {
           event.preventDefault();
           // button loading
           btnKirimLpj.classList.toggle("d-none");
