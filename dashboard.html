@@ -27,6 +27,9 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
 
+    <!-- BS Tooltips
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+
     <style>
       @font-face {
         font-family: "Product Sans";
@@ -208,7 +211,16 @@
                       <textarea class="form-control" name="alamat" rows="5"></textarea>
                     </div>
                     <div class="text-center" style="padding: 2rem">
-                      <button class="btn-kirim" id="btn-absen" type="submit">Send Data</button>
+                      <button
+                        class="btn-kirim"
+                        id="btn-absen"
+                        type="submit"
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="bottom"
+                        title="Bisa diklik pada 21 April 06.00 - 09.30"
+                      >
+                        Send Data
+                      </button>
                       <button class="btn btn-primary btn-loading d-none" type="btn-new" disabled>
                         <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
                         Loading...
@@ -683,5 +695,11 @@
       })();
     </script>
     <!--End of Tawk.to Script-->
+
+    <script>
+      //  $(document).ready(function () {
+      //    $('[data-bs-toggle="tooltip"]').tooltip();
+      //  });
+    </script>
   </body>
 </html>
