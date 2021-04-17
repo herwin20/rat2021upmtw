@@ -5,6 +5,7 @@ deployment:
     - /bin/cp dashboard.html $DEPLOYPATH
     - /bin/cp maps.html $DEPLOYPATH
     - /bin/cp changelog.txt $DEPLOYPATH
+    - /bin/cp datarat2021.html $DEPLOYPATH
     - /bin/cp Readme.txt $DEPLOYPATH
     - /bin/cp FINAL DATA RAT KOP 2021.xlsx
     - /bin/cp -R assetlogin $DEPLOYPATH
