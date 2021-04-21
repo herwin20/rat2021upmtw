@@ -38,7 +38,7 @@ angular.module("AdminLogin", []).controller("LoginAdmin", function ($scope) {
       ($scope.username === "9215231ZJY" && $scope.password === "9215231") || //	ANGGA SYAM PERMANA
       ($scope.username === "9116132ZJY" && $scope.password === "9116132") || //	ANGGAWA RUDRADIANTONO
       ($scope.username === "8108029JA" && $scope.password === "8108029") || //	ANGGRESTA NURADRIKNI
-      ($scope.username === "8614122ZJY" && $scope.password === "861412") || //	ANHAR ASHARI
+      ($scope.username === "8614122ZJY" && $scope.password === "8614122") || //	ANHAR ASHARI
       ($scope.username === "9016104ZJY" && $scope.password === "9016104") || //	ANJU WISATA PARDEDE
       ($scope.username === "9011190JA" && $scope.password === "9011190") || //	ANWAR GOJALI
       ($scope.username === "8305055JA" && $scope.password === "8305055") || //	ARGGO GIANTO
@@ -140,7 +140,7 @@ angular.module("AdminLogin", []).controller("LoginAdmin", function ($scope) {
       ($scope.username === "9114225ZJY" && $scope.password === "9114225") || //	JANRI TUA SIAHAAN
       ($scope.username === "8815127ZJY" && $scope.password === "8815127") || //	JATMIKO ARIF WIBOWO
       ($scope.username === "8814120ZJY" && $scope.password === "8814120") || //	JHON ACRIDMA
-      ($scope.username === "8610083JA" && $scope.password === " 8610083") || //	JIMMY PERIANTO SITUMORANG
+      ($scope.username === "8610083JA" && $scope.password === "8610083") || //	JIMMY PERIANTO SITUMORANG
       ($scope.username === "9215305ZJY" && $scope.password === "9215305") || //	JOSIA PERDAMENTA GINTING
       ($scope.username === "7603019JA" && $scope.password === "7603019") || //	JUNAIDI ABDI
       ($scope.username === "8209031JA" && $scope.password === "8209031") || //	KOMANG GEDE NARA UTAMA
@@ -170,7 +170,7 @@ angular.module("AdminLogin", []).controller("LoginAdmin", function ($scope) {
       ($scope.username === "9315352ZJY" && $scope.password === "9315352") || //	MUH FERIZQO
       ($scope.username === "9011186JA" && $scope.password === "9011186") || //	MUHAMAD MURSID NUR ICHSAN
       ($scope.username === "9214110ZJY" && $scope.password === "9214110") || //	MUHAMAD ROSHIE FRIANSYAH
-      ($scope.username === "8309163Z" && $scope.password === "8309163Z") || //	MUHAMMAD AMIN FAUZI
+      ($scope.username === "8309163ZJY" && $scope.password === "8309163") || //	MUHAMMAD AMIN FAUZI
       ($scope.username === "9215374ZJY" && $scope.password === "9215374") || //	MUHAMMAD AMIR MUJAHID
       ($scope.username === "9215241ZJY" && $scope.password === "9215241") || //	MUHAMMAD DIMAS FIRDAUS
       ($scope.username === "9619040ZJY" && $scope.password === "9619040") || //	MUHAMMAD FAKHRI HADIYANTO
